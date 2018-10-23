@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.framework    = 'Foundation'
   s.ios.framework = 'UIKit'
   s.osx.framework = 'AppKit'
-  s.dependency 'OpenSSL-Universal', '1.0.1.16'
+  s.dependency 'OpenSSL-Static', '1.0.2.c1'
   s.dependency 'ISO8601DateFormatter'
 end
